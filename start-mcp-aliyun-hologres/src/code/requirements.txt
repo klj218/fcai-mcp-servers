@@ -1,1 +1,1 @@
-hologres-mcp-server==0.1.9
+hologres-mcp-server==1.0.3

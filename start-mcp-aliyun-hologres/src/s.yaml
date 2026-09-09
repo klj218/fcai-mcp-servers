@@ -13,7 +13,7 @@ resources:
       description: mcp server deployed by devs
       transport: stdio
       runtime: python3.10
-      startCommand: 'uv run --with hologres-mcp-server hologres-mcp-server'
+      startCommand: 'python3 /code/python/bin/hologres-mcp-server'
       cpu: 0.5
       memorySize: 512
       enableAuth: true
